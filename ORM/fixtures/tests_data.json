@@ -1,0 +1,60 @@
+{
+"publisher": [
+	{
+		"id" : 1,
+		"name" : "Дрофа"
+	},
+	{
+		"id" : 2,
+		"name" : "Птица"
+	}
+],
+"shop": [
+	{
+		"id" : 1,
+		"name" : "Книжный"
+	},
+	{
+		"id" : 2,
+		"name" : "Пэйпэ"
+	}
+],
+  "book": [
+	{
+		"id" : 1,
+		"title" : "Как выучить Python за один день",
+		"id_publisher" : 1
+	},
+	{
+		"id" : 2,
+		"title" : "Как не перегореть уча Python за один день",
+		"id_publisher" : 1
+	}
+],"stock": [
+	{
+		"id" : 1,
+		"id_book" : 1,
+		"id_shop" : 1,
+		"count" : 5
+	},
+	{
+		"id" : 2,
+		"id_book" : 2,
+		"id_shop" : 2,
+		"count" : 7
+	}
+],"sale": [
+	{
+		"id" : 1,
+		"price" : 100,
+		"date_sale" : "2022-11-01T17:59:59.000Z",
+		"id_stock" : 1
+	},
+	{
+		"id" : 2,
+		"price" : 45,
+		"date_sale" : "2022-11-10T17:59:59.000Z",
+		"id_stock" : 2
+	}
+]
+}
